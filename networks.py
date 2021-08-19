@@ -58,9 +58,7 @@ class Network:
                 nameNodeB = 'node' + str(nodeB)
                 bias = uniform(-1, 1)
                 connectionsDict['biases'][nameLayerB][nameNodeB] = bias
-
-
-
+                
         return connectionsDict
 
 
